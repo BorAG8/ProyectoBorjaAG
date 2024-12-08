@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/principalFragment">
+
+    <fragment
+        android:id="@+id/principalFragment"
+        android:name="com.example.proyectoborjaag.main.PrincipalFragment"
+        android:label="fragment_principal"
+        tools:layout="@layout/fragment_principal" >
+        <action
+            android:id="@+id/action_principalFragment_to_personajesFragment"
+            app:destination="@id/personajesFragment" />
+        <action
+            android:id="@+id/action_principalFragment_to_ubicacionesFragment"
+            app:destination="@id/ubicacionesFragment" />
+        <action
+            android:id="@+id/action_principalFragment_to_episodiosFragment"
+            app:destination="@id/episodiosFragment" />
+        <action
+            android:id="@+id/action_principalFragment_to_citasFragment"
+            app:destination="@id/citasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/personajesFragment"
+        android:name="com.example.proyectoborjaag.casas.CasasFragment"
+        android:label="fragment_personajes"
+        tools:layout="@layout/fragment_casas" />
+    <fragment
+        android:id="@+id/ubicacionesFragment"
+        android:name="com.example.proyectoborjaag.ubis.UbicacionesFragment"
+        android:label="fragment_ubicaciones"
+        tools:layout="@layout/fragment_ubicaciones" />
+    <fragment
+        android:id="@+id/casasFragment"
+        android:name="com.example.proyectoborjaag.casas.PersonajeFragment"
+        android:label="fragment_casas"
+        tools:layout="@layout/fragment_personajes" />
+    <fragment
+        android:id="@+id/episodiosFragment"
+        android:name="com.example.proyectoborjaag.episodios.EpisodiosFragment"
+        android:label="fragment_episodios"
+        tools:layout="@layout/fragment_episodios" />
+    <fragment
+        android:id="@+id/citasFragment"
+        android:name="com.example.proyectoborjaag.citas.CitasFragment"
+        android:label="fragment_citas"
+        tools:layout="@layout/fragment_citas" >
+        <action
+            android:id="@+id/action_citasFragment_to_muestraFragment"
+            app:destination="@id/muestraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/muestraFragment"
+        android:name="com.example.proyectoborjaag.citas.MuestraFragment"
+        android:label="fragment_muestra"
+        tools:layout="@layout/fragment_muestra" />
+</navigation>

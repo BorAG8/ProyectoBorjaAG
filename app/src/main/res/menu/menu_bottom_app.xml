@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".main.MainActivity">
+    <item android:id="@+id/action_home"
+        android:title="@string/action_home"
+        android:icon="@drawable/home"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_casas"
+        android:title="@string/action_casas"
+        android:icon="@drawable/escudo"
+        app:showAsAction="never" />
+    <item android:id="@+id/espacio"
+        android:title=" "/>
+    <item android:id="@+id/action_citas"
+        android:title="@string/action_citas"
+        android:icon="@drawable/citas"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_episodios"
+        android:title="@string/action_episodios"
+        android:icon="@drawable/episodios"
+        app:showAsAction="never" />
+</menu>

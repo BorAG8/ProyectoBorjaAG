@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ProyectoBorjaAG</string>
+    <string name="action_home">Home</string>
+    <string name="action_casas">Casas</string>
+    <string name="action_citas">Citas</string>
+    <string name="action_ubicaciones">Ubicaciones</string>
+    <string name="action_episodios">Episodios</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_icon">Tab icon</string>
+    <string-array name="spinner_options">
+        <item>Temporada 1</item>
+        <item>Temporada 2</item>
+        <item>Temporada 3</item>
+        <item>Temporada 4</item>
+        <item>Temporada 5</item>
+        <item>Temporada 6</item>
+        <item>Temporada 7</item>
+        <item>Temporada 8</item>
+    </string-array>
+</resources>
